@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: ;
+}
+
+.row{
+	margin:0;
+}
+
+#uno{
+  height: 100vh;
+  width: 100vh;
+	margin:0; 
+  background: #530060; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #530060 0%, #9f0575 50%, #e80b8a 92%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #530060 0%,#9f0575 50%,#e80b8a 92%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #530060 0%,#9f0575 50%,#e80b8a 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#530060', endColorstr='#e80b8a',GradientType=1 );
+}
+
+#dos{
+	height:100vh;
+	width:100vh;
+	background-image: url("../imgs/8686338618_4b950ebcce_k.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:#3D3D3D;
+}
+#logo-home{
+	height: 50vh;
+	margin-top: 20vh;
+}
+
+#minilogo{
+	height: 10vh;
+	margin-top:2vh;
+}
+
+#lyftlife{
+	height:40vh;
+	margin-top: 5vh;
+}
+.btn-home{
+	height: 10vh;
+	width: 20vh;
+	margin-top: 10vh;
+	background-color: transparent;
+	color:#fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+
+#tres{
+	height:100vh;
+	width:100vh;
+	background-color: #f0f3f6;
+	background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23cdcfd2' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.glyphicon-chevron-left{
+	height: 10vh;
+}
+hr{
+	color:#999898;
+}
+.txt{
+	font-size: 1.5em;
+}
+
+.next{
+	height: 15vh;
+	width: 50vh;
+	background-color: #7C7A7A
+	color:#fff;
+}
+
+#selector{
+	height: 20vh;
+}
+
+#tres input{
+	height:20vh;
+}
