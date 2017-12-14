@@ -14,20 +14,21 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Mi css -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
 
 	<section id="uno">
-		<div class="container">
+		<div class="container center-block">
 			<div class="row">
 				<div class="col-md-12 col-xs-12 text-center">
-					<img id="logo-home" src="assets/imgs/logo-white.png">
+					<img id="logo-home" class="img-responsive" src="assets/imgs/logo-white.png">
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section id="dos">
+	<section id="dos" >
 		<div class="container center-block">
 			<div class="row text-center">
 				<div class="col-md-12 col-xs-12 ">
@@ -39,23 +40,23 @@
 				</div>
 				<br>	
 				<div class="col-md-6 col-xs-6">
-					<button class="btn-home" id="sign-in">SIGN IN</button>
+					<button class="btn-home" id="sign-in">LOG IN</button>
 				</div>
 				<div class="col-md-6 col-xs-6">
-					<button class="btn-home" id="sign-up">SIGN UP</button>
+					<button class="btn-home" id="sign-up"><a href="#tres">SIGN UP</a></button>
 				</div>
 			</div>		
 		</div>
 	</section>
 
-	<section id="tres text-center center-block">
-		<div class="container">
+	<section id="tres">
+		<div class="container text-center center-block">
 			<div class="row">
 				<div class="col-md-2 col-xs-2">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-chevron-left atras" aria-hidden="true" href="index.html#dos"></span>
 				</div>	
 				<div class="col-md-10 col-xs-10">
-					<h1> Sign in </h1>
+					<h1> Sign up </h1>
 				</div>
 				<br>
 				<div class="col-md-12 col-xs-12">
@@ -66,15 +67,20 @@
 				<br>
 				<hr>
 				<br>
-				<div class="col-md-12">		
-				<select id="selector">
-      				<option value="0"><img id="mex" src="assets/imgs/if_Mexico_298458.png"></option>
-      				<option value="1"><img id="col" src="assets/imgs/if_Colombia_298555.png"></option>
-      				<option value="2"><img id="peru" src="assets/imgs/if_Peru_298404.png"></option>
-      				<option value="3"><img id="usa" src="assets/imgs/if_United-States-of-America_298411.png"></option>
-      	</select>
-      	<input placeholder="52"></div>
-				</div>
+				<div class="col-md-10 col-xs-10 offset-md-1 offset-xs-1 inputs">		
+				<div class="input-group">
+          <div class="input-group-btn">
+            <button type="button" class="btn dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">País<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><img src="assets/img/if_Colombia_298555.png" class="img-responsive flag"></li>
+              <li><img src="assets/imgs/if_Mexico_298458.png" class="img-responsive flag"></li>
+              <li><img src="assets/imgs/if_Peru_298404.png" class="img-responsive flag"></li>
+              <li><img src="assets/imgs/if_United-States-of-America_298411.png" class="img-responsive flag"></li>
+      			</ul>
+      	    <input type="text" class="form-control" placeholder="52" aria-describedby="basic-addon1">
+      	  </div>
+       	</div>
+      <br>
 				<div class="col-md-12 col-xs-12">
 					<p class="txt">
 						We'll send a text to verify your phone.
@@ -82,12 +88,43 @@
 				</div>
 				<br>
 				<div class="col-md-12 col-xs-12">
-					<button .class="next">Next</button>
+					<button class="next">Next</button>
 				</div>
 			</div>
 		</div> 
 	</section>
 
+	<section id="cuatro">
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-xs-12">
+      <form>
+        <a id="back2"><span class="glyphicon glyphicon-chevron-left margin" aria-hidden="true"></span><span>BACK</span></a>
+        <h3>Cualquier cosa</h3>
+        <p>Join now for free ride credit</p>
+        <hr>
+        <div class="input-group">
+         <p class="input-group-addon b" id="basic-addon1">LAB</p>
+         <input id="insertCode" type="number" class="form-control" placeholder="3 Digits" aria-describedby="basic-addon1">
+        </div>
+        <div id="text-number">
+          <!--aqui va numero-->
+        </div>
+        <button id="resend" type="button" class="btn b" style="margin-bottom: 20px;">Resend code</button>
+        <button id="paso3" type="button" class="btn bpink btn-lg btn-block" disabled="disabled">NEXT</button>
+      </form>
+     </div><!--col12-->
+    </div><!--row-->
+   </div><!--container-->
+ </section>
+
+
+		
+
+<!-- js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--mi js-->
+<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 
 </html>
